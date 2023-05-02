@@ -1,0 +1,143 @@
+/* CSS pour l'en-tête */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* CSS pour le corps */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* CSS pour la section principale */
+  main {
+    margin: 20px;
+  }
+  .title{
+    display: flex;
+    justify-content: center;
+  }
+  /* CSS pour les titres */
+  h1, h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+  }
+  /* CSS pour les liens */
+  a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 20px;
+    transition-duration: 0.7s;
+  }
+  .a-ajout{
+    border: 1px solid black ;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+  }
+  .a-modifier{
+    padding: 5px;
+    background: orange;
+    border-radius: 15px;
+  }
+  .a-supprimer{
+    padding: 5px;
+    background: rgb(241, 43, 43);
+    border-radius: 15px;
+  }
+  a:hover {
+    transition-duration: 1s;
+    background: #b6b6b6;
+  }
+  
+  /* CSS pour les tableaux */
+  table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    width: 80%;
+    margin: 20px 20px ;
+
+  }
+  
+  table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  
+  }
+  th{
+    margin: 20px;
+  }
+  table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* CSS pour les boutons */
+  button {
+    background-color: #333;
+    border: none;
+    color: #ffffff;
+    
+    cursor: pointer;
+    padding: 8px 16px;
+  }
+  .bouton-ajout{
+    background: #28cd13;
+    border-radius: 15px;
+    margin-left: 20px;
+  }
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* CSS pour les formulaires */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  input[type="text"], textarea {
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin: 20px;
+
+  }
+  
+  textarea {
+    height: 200px;
+    resize: none;
+  }
+  
+  /* CSS pour le pied de page */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
